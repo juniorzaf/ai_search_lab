@@ -30,7 +30,7 @@ def pop_min(Q):
     # Retirer et retourner l'élément avec le coût minimal
     return Q.pop(i_min)
 
-#Etape 2: Définition est_coherente
+# Etape 2: Définition est_coherente
 def est_coherente(graphe, h,goal):
     """
     Vérifie si l'heuristique h est cohérente pour le graphe donné.
