@@ -3,7 +3,7 @@
 def etats(Q):
     return {c[-1] for c in Q}
 
-def recherche_simple_largeur_E(graphe, depart, objectif):
+def recherche_simple_largeur(graphe, depart, objectif):
     Q = [[depart]]
     E = set()
 

@@ -8,6 +8,7 @@ def pop_min(Q):
             i_min, c_min = i, c
     return Q.pop(i_min)
 
+
 def recherche_cout_uniforme(graphe, depart, objectif):
     voisins = {} # Prépare la liste des voisins sortants à partir de 'graphe'
     for (u, v), w in graphe.items():

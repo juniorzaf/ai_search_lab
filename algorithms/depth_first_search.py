@@ -6,7 +6,7 @@ def etat(pi):
 def etats(Q):
     return {c[-1] for c in Q}
 
-def recherche_simple_profondeur_E(graphe, depart, objectif):
+def recherche_simple_profondeur(graphe, depart, objectif):
     Q = [[depart]]
     E = set()
     it = 0

@@ -50,7 +50,7 @@ def est_coherente(graphe, h,goal):
             return False
     return True
 
-#Etape 3: Définition de a_star
+# Etape 3: Définition de a_star
 def a_star(graphe:dict, h:dict, goal:str, start:str):
     """
     Implémente l'algorithme A* pour trouver le chemin le plus court dans un graphe.
